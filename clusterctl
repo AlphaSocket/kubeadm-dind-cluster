@@ -9,7 +9,9 @@ export APISERVER_PORT=30000
 export NUM_NODES=1
 
 # Set coredns as dns
-export DNS_SERVICE='coredns'
+#export DNS_SERVICE='coredns'
+
+export BIND_ADDRESS='0.0.0.0'
 
 # Root of persistent data managed by NFS
 #
